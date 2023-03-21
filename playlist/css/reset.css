@@ -1,0 +1,10 @@
+@charset "utf-8";
+* { margin:0; padding:0; border:0; outline:0; box-sizing: border-box; }
+ul, li, ol, dl, dd, dt { list-style:none; }
+img, video { vertical-align:top; border:0; }
+input, select, textarea, button {
+	font:inherit; color:inherit; border-radius:0;
+}
+a, a:hover, a:focus { color: none; text-decoration: none; }
+address { font-style:normal; }
+table{border-collapse: collapse;}

@@ -1,0 +1,568 @@
+:root {
+	--mainColor : #6667ab;
+	--subColor1 : #2F305E;
+	--subColor2 : #8F6FAB;
+	--whiteColor : #fff;
+}
+
+@font-face {
+	font-family: 'SEBANG_Gothic_Bold';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'LINESeedKR-Bd';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+@keyframes opacityDiv {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@keyframes rotate365 {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+
+	}
+
+}
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+li{list-style: none;}
+body{
+	font-family: "SEBANG_Gothic_Bold";
+}
+h4{
+	background-color: #fff;
+	padding: 5px;
+	margin: 3px 0;
+	font-size: large;
+	color: var(--subColor1);
+}
+.light{
+	font-family: 'LINESeedKR-Bd';
+	font-weight: bold;
+	color: var(--mainColor);
+	width: 80%;
+	margin: 0 auto;
+}
+section.mainSec{
+	height: 100vh;
+}
+section.mainSec:nth-child(2){
+	background-color: #FF5605;
+}
+section.mainSec:nth-child(3){
+	background-color: #ccc;
+}
+
+.main{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	overflow: hidden;
+}
+
+input {
+	width: 200px;
+	border: 0;
+	border-bottom: 2px solid var(--mainColor);
+	margin: 20px 0;
+	outline: 0;
+	line-height: 30px;
+}
+
+button {
+	width: 200px;
+	height: 40px;
+	margin: 15px 0;
+	background: var(--mainColor);
+	border: 0;
+	border-radius: 5px;
+	color: var(--whiteColor);
+	cursor: pointer;
+	font-family: "SEBANG_Gothic_Bold";
+}
+/* login */
+.logdiv{
+	height: 0px;
+	transition: .5s;
+	overflow: hidden;
+}
+.logdiv.on{
+	height: 200px;
+}
+.logdiv form{
+	display: flex;
+	flex-direction: column;
+}
+.idcheck {
+	display: flex;
+	flex-direction: column;
+}
+/* header */
+section .menu{
+	position: fixed;
+	flex-direction: column;
+	top: 0;
+	right: -300px;
+	width: 300px;
+	height: 100vh;
+	background: var(--whiteColor);
+	display: flex;
+	transition: 1s;
+	padding: 30px;
+	z-index: 99;
+	border-left: 1px solid var(--subColor1);
+	border-radius: 50px 0 0 0 ;
+}
+section .menu.on{
+	right: 0;
+}
+section .menu ul{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: start;
+	align-items: center;
+	margin-top: 50px;
+}
+section .menu ul li{
+	margin: 10px 0;
+}
+section .menu ul li a{
+	color: var(--subColor1);
+}
+section .menu ul li a:hover{
+	color: var(--mainColor);
+}
+section .menu .menu_close{
+	cursor: pointer;
+	font-size: 20px;
+}
+section .menu .menu_close:hover{
+	color: var(--mainColor);
+}
+/*  */
+#waveform ::-webkit-scrollbar{
+	display: none;
+}
+/* main */
+.inner{
+	width: 60%;
+	margin: 50px auto;
+}
+.grayDiv{
+	background-color:#F2F2F2;
+	height: 60%;
+}
+.neverstop{
+	height: 100%;
+	display: grid;
+	align-items: flex-end;
+	grid-template-rows: repeat(4,1fr);
+	grid-template-columns: 8fr 2fr;
+	gap: 10px;
+	grid-template-areas:
+	"img ."
+	"img h2"
+	"img p"
+	"img .";
+}
+.neverstop img{grid-area: img; width: 100%;}
+.neverstop h2{grid-area: h2; font-size: 50px;}
+.neverstop p{grid-area: p;}
+.orangeDiv{
+	color: #fff;
+	text-align: center;
+	margin: 70px;
+}
+.icons{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.icons i{
+	font-size: 100px;
+	cursor: pointer;
+}
+.icons i:hover{
+	color: orange;
+}
+
+section .color{
+	height: 50vh;
+	background-image: url("https://static.tildacdn.com/tild3365-6631-4039-b832-656664346361/photo.gif");
+}
+section .Lp{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	background: url(../images/Vinyl-PNG-Picture.png) center center no-repeat;
+	background-size:contain;
+	display: flex;
+	justify-content: space-around;
+	transition: 1s;
+	animation: rotate365 2s linear infinite;
+	cursor: pointer;
+	z-index: 2;
+}
+section .logo{
+	height: 50vh;
+	text-align: center;
+	font-size: 150px;
+	font-weight: bold;
+	position: relative;
+}
+
+.rightDiv{
+	width: 70vw;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	text-align: center;
+}
+.rightDiv ul{
+	margin-top: 50px;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+.rightDiv ul li .img{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 20px;
+}
+.rightDiv ul li:nth-child(1) .img{
+	background: url(../images/icon1.png) center center;
+	background-size: contain;
+}
+.rightDiv ul li:nth-child(2) .img{
+	background: url(../images/icon2.png) center center;
+	background-size: contain;
+}
+.rightDiv ul li:nth-child(3) .img{
+	background: url(../images/icon3.png) center center;
+	background-size: contain;
+}
+.rightDiv ul li:nth-child(4) .img{
+	background: url(../images/icon4.png) center center;
+	background-size: contain;
+}
+
+.pade{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 600px;
+	height: 300px;
+	overflow: hidden;
+	transition: 2s;
+	opacity: 0;
+	animation: opacityDiv 3s 1s;
+	animation-fill-mode: both;
+}
+
+.logout {
+	margin-top: 50px;
+	margin-bottom: 60px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid var(--mainColor);
+	text-align: center;
+}
+/* what's your favorite */
+.purplediv{
+	width: 100%;
+	height: 20vh;
+	background-color: var(--mainColor);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--whiteColor);
+	font-size: 50px;
+}
+
+.kinds{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: start;
+	justify-content: start;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 90%;
+}
+.kinds .kind{
+	writing-mode: vertical-lr;
+	text-orientation: upright;
+	width: 50px;
+	min-height: 200px;
+	margin: 10px;
+	cursor: pointer;
+	background: linear-gradient(to bottom,var(--mainColor),var(--whiteColor));
+	padding: 10px;
+	transition: .5s;
+}
+.kinds .kind .kindDesc{width: 0;}
+.kinds .kind .kindDesc li{
+	display: flex;
+	margin: -20px 0;
+}
+.kinds .kind .kindDesc .album img{
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	border: 2px solid var(--mainColor);
+}
+.kinds .kind .kindDesc .content h4{
+	transform: rotate(3deg);
+	width: 0;
+	transition: .5s;
+}
+
+.kinds .kind.off .kindDesc ul{display: flex;}
+.kinds .kind.off .kindDesc .content{display: none;}
+.kind.off .kindBg{
+	background: linear-gradient(to bottom,var(--mainColor),var(--whiteColor));
+	width: 110px;
+}
+
+/* what's your favorite:open */
+.kinds .kind.on{
+	width: 500px;
+	writing-mode: unset;
+}
+.kinds .kind.on .kindDesc{
+	width: 100%;
+	overflow: hidden;
+}
+.kinds .kind.on .kindDesc li{
+	background-color: rgba(255, 255, 255, .6);
+	margin: 10px 0;
+}
+.kinds .kind.on .kindDesc .content h4{width: 200px;}
+
+/*음악 등록하기 페이지*/
+#musicWrite {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	padding-top: 80px;
+}
+.writeTable th {
+    width: 30%;
+    font-size: 18px;
+}
+.writeTable td {
+    width: 70%;
+    padding: 10px;
+}
+.writeTable input {
+    width: 90%;
+	padding: 0 30px;
+}
+.writeTable textarea {
+    width: 90%;
+    border: 0;
+    height: 200px;
+    outline: 0;
+    padding: 16px;
+    border-radius: 5px;
+}
+/* 음악 리스트 페이지 */
+.total{
+	width: 80%;
+	border-bottom: 2px solid var(--mainColor);
+	line-height: 60px;
+	margin: 0 auto;
+	margin-top: 220px;
+	display: flex;
+}
+#musicList h2{
+	background: var(--mainColor);
+	line-height: 200px;
+	padding-left: 30px;
+	color: var(--whiteColor);
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+#musicList .search{
+	position: fixed;
+	top: 10%;
+	width: 10vw;
+}
+#musicList input{
+	padding-left: 30px;
+	width: 80%;
+}
+#musicList button{
+	width: 15%;
+}
+#musicList .nav{
+	position: fixed;
+	top: 240px;
+	padding: 10px 30px;
+}
+#musicList .albums{
+	margin-top: 20px;
+}
+.musicList h4{
+	border-bottom: 1px solid var(--mainColor);
+	margin-bottom: 10px;
+}
+.musicList {
+	display: flex;
+	justify-content: flex-start;
+	flex-flow: row wrap;
+	width: 80%;
+	height: 100%;
+	margin: 20px auto;
+	text-align: center;
+}
+.musicList h5{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: var(--subColor1);
+	font-size: 18px;
+}
+.musicList .subtitle{
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	grid-template-rows: 1fr 1fr;
+	align-items: center;
+	grid-template-areas:
+	"name kinds"
+	"name date";
+	margin-bottom: 5px;
+	font-size: smaller;
+}
+.musicList .subtitle p:nth-child(1){grid-area: name;}
+.musicList .subtitle p:nth-child(2){grid-area: kinds;}
+.musicList .subtitle p:nth-child(3){grid-area: date;}
+.btns{
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	width: 80%;
+	margin: 0 auto;
+}
+#musicList .btns button{
+	margin: 0 5px;
+	font-size: 18px;
+	background: initial;
+	color: var(--mainColor);
+}
+#musicList .btns button:hover{
+	color: var(--subColor1);
+}
+.musicList li{
+	margin: 20px;
+	width: 21%;
+}
+.musicList .album {
+	width: 200px;
+	height: 200px;
+	border: 1px solid var(--mainColor);
+}
+.musicList .album img {
+	width: 100%;
+}
+/* admin */
+.musicList.adminlist{
+	width: 70%;
+	margin: 0 auto;
+	text-align: start;
+}
+.musicList.adminlist li:last-child{
+	margin-bottom: 65px;
+}
+.musicList.adminlist h4{
+	margin: 5px;
+	border: 0;
+}
+.musicList.adminlist .subtitle{
+	display: inline-flex;
+	width: 30%;
+	justify-content: space-around;
+}
+.musicList .adminli{
+	display: flex;
+	width: 100%;
+	margin: 10px auto;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid var(--mainColor);
+}
+.musicList .adminli .album{
+	width: 50px;
+	min-width: 50px;
+	height: 50px;
+}
+
+#musicList .adminlist button{
+	width: 50px;
+	padding-left: 20px;
+	background: initial;
+	color: var(--mainColor);
+}
+
+.adminli input{
+	font-size: inherit;
+	font-family: inherit;
+	border: 0;
+	margin: 0;
+	padding: 0!important;
+	width: 100%!important;
+}
+select{
+	font-size: inherit;
+	font-family: inherit;
+	border: 0;
+	margin: 0;
+	outline: 0;
+}
+option, .adminli textarea{
+	font-size: inherit;
+	font-family: inherit;
+	border: 0;
+	outline: none;
+}
+.adminli textarea{
+	width: 100%;
+}
+.adminli form:nth-child(1){
+	display: inherit;
+	width: 95%;
+	align-items: center;
+}
+.adminli form:nth-child(2){width: 5%;}
+
+.adminli input:focus, .adminli select:focus, .adminli option:focus, .adminli textarea:focus{
+	color: var(--mainColor);
+}
