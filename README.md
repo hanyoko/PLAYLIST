@@ -24,7 +24,8 @@
 
 
 ### 3. 인게임
-  
+
+<details><summary>화면</summary>
 #### admin 로그인
 ![admin 로그인](https://user-images.githubusercontent.com/119985173/236879062-3617044b-c3b1-4f07-8057-dda5eaa262ec.PNG)
 
@@ -104,3 +105,5 @@
 
 #### 음악 등록하기
 ![음악 등록하기](https://user-images.githubusercontent.com/119985173/236879101-2d6647ff-7a5d-4036-81c5-123a62964032.PNG)
+
+</details>
