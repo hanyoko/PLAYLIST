@@ -4,8 +4,7 @@
 # 🏠 [HOME PAGE](http://hanyoko.dothome.co.kr/playlist)
 
 # 🖥️ 프로젝트 소개
-## YZA : 
-
+## YZA : ?
 
 > - PHP와 Javascript를 이용해서 만든 음악 플레이리스트 사이트입니다.
 
