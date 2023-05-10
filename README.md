@@ -4,7 +4,7 @@
 # 🏠 [HOME PAGE](http://hanyoko.dothome.co.kr/playlist)
 
 # 🖥️ 프로젝트 소개 - 수정 중
-## YZA : 알파벳의 마지막 순서인 Y와 Z 다음, 첫번째 순서인 A로.
+## YZA : ?
 > - PHP와 Javascript를 이용해서 만든 음악 플레이리스트 사이트입니다.
 
 ## ⏱ 개발 기간
