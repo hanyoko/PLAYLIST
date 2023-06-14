@@ -21,13 +21,17 @@
 > - 고요한 : 
 
 ## 🎶 프로젝트 소개
-### 1. 
+<br/>
+<br/>
 
+|[🔗 LOG IN]|[🔗 YZA MAIN]|
+|:--:|:--:|
+|<img src='https://user-images.githubusercontent.com/119985173/236879075-e0ced4c0-3cbf-496b-93c4-9731f3674580.PNG'>|<img src='https://user-images.githubusercontent.com/119985173/236879070-3e0cf877-e03d-4859-bf89-8b21c92fb97f.PNG'>|
 
-### 2. 
+|[🔗 MUSIC]|[🔗 ADMIN]|
+|:--:|:--:|
+|<img src='https://user-images.githubusercontent.com/119985173/236879086-6fbd19ca-2d07-407e-8e91-df92c14027e0.PNG'>|<img src='https://user-images.githubusercontent.com/119985173/236879065-077d775a-9697-46f2-b9a1-287fd46b307e.PNG'>|
 
-
-### 3. 
 
 <details><summary>화면</summary>
 
@@ -35,7 +39,7 @@
 ![admin 로그인](https://user-images.githubusercontent.com/119985173/236879062-3617044b-c3b1-4f07-8057-dda5eaa262ec.PNG)
 
 #### admin 음악관리
-![admin 음악괸리](https://user-images.githubusercontent.com/119985173/236879065-077d775a-9697-46f2-b9a1-287fd46b307e.PNG)
+![admin 음악관리](https://user-images.githubusercontent.com/119985173/236879065-077d775a-9697-46f2-b9a1-287fd46b307e.PNG)
 
 #### YZA 메인화면
 ![YZA 메인화면](https://user-images.githubusercontent.com/119985173/236879070-3e0cf877-e03d-4859-bf89-8b21c92fb97f.PNG)
