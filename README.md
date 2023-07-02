@@ -131,5 +131,8 @@
 #### 로그인이 되어 있을 때
 ![로그인이 되어있을 때](https://github.com/hanyoko/PLAYLIST/assets/119985173/bb8ff0fe-949d-4b34-bb01-333a219a3b48)
 
+#### 아이디 또는 비밀번호 틀렸을 때
+![틀렸을 때](https://github.com/hanyoko/PLAYLIST/assets/119985173/fac026eb-d1d3-4b90-af0c-1076445688d0)
+
 
 </details>
