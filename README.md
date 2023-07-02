@@ -32,7 +32,7 @@
 <br/>
 
 
-|[🔗 LOG IN(https://github.com/hanyoko/PLAYLIST/wiki/Log-In)]|[🔗 YZA MAIN|
+|[🔗 LOG IN](https://github.com/hanyoko/PLAYLIST/wiki/Log-In)|[🔗 YZA MAIN|
 |:--:|:--:|
 |<img src='https://user-images.githubusercontent.com/119985173/236879075-e0ced4c0-3cbf-496b-93c4-9731f3674580.PNG'>|<img src='https://user-images.githubusercontent.com/119985173/236879070-3e0cf877-e03d-4859-bf89-8b21c92fb97f.PNG'>|
 
