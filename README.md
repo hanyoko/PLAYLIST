@@ -38,7 +38,7 @@
 |:--:|:--:|
 |<img src='https://user-images.githubusercontent.com/119985173/236879075-e0ced4c0-3cbf-496b-93c4-9731f3674580.PNG'>|<img src='https://user-images.githubusercontent.com/119985173/236879070-3e0cf877-e03d-4859-bf89-8b21c92fb97f.PNG'>|
 
-|[🔗 MUSIC](https://github.com/hanyoko/PLAYLIST/wiki/MUSIC)|[🔗 ADMIN]https://github.com/hanyoko/PLAYLIST/wiki/ADMIN|
+|[🔗 MUSIC](https://github.com/hanyoko/PLAYLIST/wiki/MUSIC)|[🔗 ADMIN](https://github.com/hanyoko/PLAYLIST/wiki/ADMIN)|
 |:--:|:--:|
 |<img src='https://user-images.githubusercontent.com/119985173/236879101-2d6647ff-7a5d-4036-81c5-123a62964032.PNG'>|<img src='https://user-images.githubusercontent.com/119985173/236879065-077d775a-9697-46f2-b9a1-287fd46b307e.PNG'>|
 
