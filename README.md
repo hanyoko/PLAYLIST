@@ -125,4 +125,11 @@
 #### 음악 등록하기
 ![음악 등록하기](https://user-images.githubusercontent.com/119985173/236879101-2d6647ff-7a5d-4036-81c5-123a62964032.PNG)
 
+#### 로그인 시도
+![로그인 시도](https://github.com/hanyoko/PLAYLIST/assets/119985173/4ddc1af9-02e7-44d3-91c2-5adff72069c5)
+
+#### 로그인이 되어 있을 때
+![로그인이 되어있을 때](https://github.com/hanyoko/PLAYLIST/assets/119985173/bb8ff0fe-949d-4b34-bb01-333a219a3b48)
+
+
 </details>
